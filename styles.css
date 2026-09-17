@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    flex: 1;
+    font-family: "Roboto", sans-serif;
+}
+img {
+    width: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content:space-around;
+    padding: 8px;
+    align-items: center;
+}
+.first-half {
+    background-color:#1F2937;
+    align-items: center;
+    padding: 20px 60px;
+}
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.subtext, ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-images {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border: lightblue;
+    border-radius: 30px;
+}
+.card p {
+    text-align: center;
+}
+.section-3 {
+    background-color: #E5E7EB;
+    padding: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+.section-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    margin: 70px 90px;
+}
+.footer-main {
+    font-weight: bold;
+}
+
+.section-4 button {
+    background-color: #3882f6;
+    border-radius: 2px;
+    color: white;
+    border-color: #E5E7EB;
+    font-weight: bold;
+}
+.topbutton {
+    background-color: #3882f6;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+}
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 30px;
+    align-items: center;
+}
